@@ -94,7 +94,7 @@ Loading development environment (Rails 4.1.6)
 > Note: the `==` method for `BCrypt::Password` is different than the typical comparator in Ruby say for an `Object`.
 
 ```ruby
-BCrypt::Password.instance_method(:==) == Array.instance_method(:==)
+BCrypt::Password.instance_method(:==) == String.instance_method(:==)
 => false
 ```
 
