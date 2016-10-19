@@ -109,7 +109,7 @@ How will Bcypts `==` help us **authenticate** a `User`?
 ```ruby
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'pry-byebug'
+  gem 'pry-rails'
 
   # Rspec allows us to write tests for rails
   gem 'rspec-rails'
